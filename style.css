@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(234, 234, 225);
+    color: rgb(64, 11, 220);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1 {
+    color: blue;
+    background-color:rgb(234, 234, 225);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase; /*using transition to make the width change smoothly*/
+}
+h2 {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+    font-size: 12px;
+    line-height: 1.0;
+}
+ul {
+    color: rgb(0, 0, 255); /*using rgb to make the color blue*/
+    font-size: 12px;
+    line-height: 1.0;
+    list-style-type: circle; /*using circle to make the dots in the list round */
+}
+a {
+    color: blue;
+    text-decoration: underline wavy; /*using underline dotted wavy to make the link more interesting*/
+}
+a:hover {
+    color: lightblue;
+    transition: color 0.3s ease; /*using transition to make the color change smoothly*/
+}
+img:hover {
+    transform: rotate(5deg); /*making the image rotate when hovered for fun*/
+}
