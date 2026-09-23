@@ -10,7 +10,7 @@ h1 {
     background-color:rgb(234, 234, 225);
     font-size: 20px;
     font-weight: bold;
-    text-transform: uppercase; /*using transition to make the width change smoothly*/
+    text-transform: uppercase; /*using transition to make the width change smoothly*/ /*this changes the capitalization for the text*/
 }
 h2 {
     color: darkblue;
